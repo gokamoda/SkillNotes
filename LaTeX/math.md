@@ -1,14 +1,14 @@
 # 数式関連Cheet-Sheet
 
-<style>
+<!-- <style>
   img{
     margin: 0 auto;
     display: block;
   }
-</style>
+</style> -->
 ## 連立
 
-<img src="img/simultaneous.png">
+<img src="img/simultaneous.png" style="margin:0 auto;display: block;">
 
 ```tex
 \begin{equation}\label{simultaneous}
