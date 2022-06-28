@@ -9,7 +9,7 @@
 ## 2. 拡張機能をインストール
 1. Markdown All in Oneをインストール
 2. これにより、インデントやリスト、TOCの作成が簡単になる。
-3. `code --install-extension yzhang.markdown-all-in-one` でも可
+3. `$ code --install-extension yzhang.markdown-all-in-one` でも可
 4. 拡張機能の設定を開く
 5. `Markdown › Extension › Toc: Levels`を`2..6`に変更すると便利
 
