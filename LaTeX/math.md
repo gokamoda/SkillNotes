@@ -1,17 +1,15 @@
 # 数式関連Cheet-Sheet
 
+<style>
+  img{
+    margin: 0 auto;
+    display: block;
+  }
+</style>
 ## 連立
-$$
-\begin{equation}
-  % \label{simultaneous}
-  \left\{
-  \begin{aligned}
-     & x + y = 0 \\
-     & x - y = 2
-  \end{aligned}
-  \right.
-\end{equation}
-$$
+
+<img src="img/simultaneous.png">
+
 ```tex
 \begin{equation}\label{simultaneous}
   \left\{

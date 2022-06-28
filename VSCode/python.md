@@ -11,7 +11,7 @@
 
 ## 2. 拡張機能をインストール
 1. `code --install-extension ms-python.python`を実行
-2. Jupyter, Jupyter Keymap, Jupyter NotebookRenderers, Pylancceも自動で追加される
+2. Jupyter, Jupyter Keymap, Jupyter NotebookRenderers, Pylanceも自動で追加される
 
 ## 3. 実行
 ### 3.1. .py

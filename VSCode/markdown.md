@@ -2,6 +2,7 @@
 - [1. 前提](#1-前提)
 - [2. 拡張機能をインストール](#2-拡張機能をインストール)
 - [3. 目次（TOC）作成](#3-目次toc作成)
+- [4. PDF化](#4-pdf化)
 
 ## 1. 前提
 - `init.md`にしたがってvscodeを設定済み
@@ -15,6 +16,12 @@
 
 ## 3. 目次（TOC）作成
 1. 目次を作成したい場所にカーソルを移動する
-2. ⌘⇧P でコマンドパレットを開く
+2. Ctrl + Shift + P ( ⌘ + ⇧ + P ) でコマンドパレットを開く
 3. `Markdown All in One: Create Table of Contents`を選択
 4. 見出し番号を振りたい場合は同じくコマンドパレットで`Markdown All in One: Add/Update ection numbers`を選択
+
+## 4. PDF化
+1. Ctrl + Shift + P ( ⌘ + ⇧ + P ) でコマンドパレットを開く
+2. `HTML` と入力
+3. `Markdown All in One: Print current document to HTML` を選択
+4. 作成されたHTMLブラウザで開いてPDFに印刷
