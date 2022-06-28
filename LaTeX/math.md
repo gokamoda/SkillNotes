@@ -7,8 +7,9 @@
   }
 </style> -->
 ## 連立
-
-<img src="img/simultaneous.png" style="margin:0 auto;display: block;">
+<p align="center">
+  <img src="img/simultaneous.png" style="margin:0 auto;display: block;">
+</p>
 
 ```tex
 \begin{equation}\label{simultaneous}
