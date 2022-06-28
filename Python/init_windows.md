@@ -1,6 +1,10 @@
 # WindowsでPython
 
-## pyenvのインストール
+- [1. pyenvのインストール](#1-pyenvのインストール)
+- [2. pythonのインストール](#2-pythonのインストール)
+- [3. コードを書く](#3-コードを書く)
+
+## 1. pyenvのインストール
 - 参考：https://github.com/pyenv-win/pyenv-win
 
 1. 管理者権限でPowerShellを起動
@@ -18,11 +22,11 @@
 3. 再起動
 4. `$ pyenv --version` を実行してインストールを確認
 
-## pythonのインストール
+## 2. pythonのインストール
 1. `$ pyenv install 3.8.8` などとpythonのバージョンを指定してインストール
 2. `$ pyenv versions` でインストールされているpython環境一覧を表示
 3. `$ pyenv global 3.8.8` などで使用する環境を指定する
 
-## コードを書く
+## 3. コードを書く
 - VSCodeで書く
 - 詳しくは`../VSCode/pytnon.md`

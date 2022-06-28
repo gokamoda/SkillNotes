@@ -1,12 +1,8 @@
 # 数式関連Cheet-Sheet
 
-<!-- <style>
-  img{
-    margin: 0 auto;
-    display: block;
-  }
-</style> -->
-## 連立
+- [1. 連立](#1-連立)
+
+## 1. 連立
 <p align="center">
   <img src="img/simultaneous.png" style="margin:0 auto;display: block;">
 </p>
