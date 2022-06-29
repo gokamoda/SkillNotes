@@ -10,7 +10,7 @@
 from PyPDF2 import PdfMerger
 
 merger = PdfMerger()
-files =  ["doc.pdf", "doc.pdf"]
+files =  ["doc1.pdf", "doc2.pdf"]
 
 for pdf in files:
     merger.append(pdf)
