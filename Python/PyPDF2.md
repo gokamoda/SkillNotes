@@ -11,7 +11,7 @@ merger = PdfMerger()
 files =  ["doc.pdf", "doc.pdf"]
 
 for pdf in files:
-merger.append(pdf)
+  merger.append(pdf)
 
 merger.write("output.pdf")
 merger.close()
