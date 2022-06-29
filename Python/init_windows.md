@@ -8,12 +8,12 @@
 - 参考：https://github.com/pyenv-win/pyenv-win
 
 1. 管理者権限でPowerShellを起動
-   ```pwsh
+   ```PowerSHell
    $ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
    $ Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
    ```
 2. 環境変数とパスの追加
-    ```pwsh
+    ```PowerShell
     [System.Environment]::SetEnvironmentVariable('PYENV',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
     [System.Environment]::SetEnvironmentVariable('PYENV_ROOT',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
     [System.Environment]::SetEnvironmentVariable('PYENV_HOME',$env:USERPROFILE + "\.pyenv\pyenv-win\","User")
