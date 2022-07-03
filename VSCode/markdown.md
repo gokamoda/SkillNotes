@@ -5,7 +5,7 @@
 - [4. PDF化](#4-pdf化)
 
 ## 1. 前提
-- `init.md`にしたがってvscodeを設定済み
+- `/VSCode/init.md`にしたがってvscodeを設定済み
 
 ## 2. 拡張機能をインストール
 1. Markdown All in Oneをインストール

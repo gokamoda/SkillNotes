@@ -23,4 +23,4 @@ $ exec $SHELL
 
 ## 4. コードを書く
 - VSCodeで書く
-- 詳しくは`../VSCode/pytnon.md`
+- 詳しくは`/VSCode/pytnon.md`
