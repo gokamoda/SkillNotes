@@ -3,6 +3,7 @@
 - [2. 拡張機能をインストール](#2-拡張機能をインストール)
 - [3. 目次（TOC）作成](#3-目次toc作成)
 - [4. PDF化](#4-pdf化)
+- [表などの自動フォーマット](#表などの自動フォーマット)
 
 ## 1. 前提
 - `/VSCode/init.md`にしたがってvscodeを設定済み
@@ -25,3 +26,6 @@
 2. `HTML` と入力
 3. `Markdown All in One: Print current document to HTML` を選択
 4. 作成されたHTMLブラウザで開いてPDFに印刷
+
+## 表などの自動フォーマット
+1. Shift + Alt + F
