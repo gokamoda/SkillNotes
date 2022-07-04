@@ -28,4 +28,6 @@
 4. 作成されたHTMLブラウザで開いてPDFに印刷
 
 ## 5. 表などの自動フォーマット
-1. Shift + Alt + F
+- Shift + Alt + F 
+- Prettierによるフォーマットは崩れる可能性あり
+- Markdown All in One のフォーマットを使うべし

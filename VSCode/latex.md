@@ -3,8 +3,9 @@
 - [1. 前提](#1-前提)
 - [2. 拡張機能をインストール＋初期設定](#2-拡張機能をインストール初期設定)
 - [3. 追加拡張機能のインストール＋初期設定](#3-追加拡張機能のインストール初期設定)
-- [4. プロジェクトごとの設定](#4-プロジェクトごとの設定)
-- [5. キーマッピング](#5-キーマッピング)
+- [4. LaTeXのフォーマッタをインストール（ローカルにLaTeXを入れている場合は不要）](#4-latexのフォーマッタをインストールローカルにlatexを入れている場合は不要)
+- [5. プロジェクトごとの設定](#5-プロジェクトごとの設定)
+- [6. キーマッピング](#6-キーマッピング)
 
 ## 1. 前提
 - `/VSCode/init.md`にしたがってvscodeを設定済み
@@ -27,7 +28,11 @@
    $ code --install-extension james-yu.latex-workshop
    ```
 
-## 4. プロジェクトごとの設定
+## 4. LaTeXのフォーマッタをインストール（ローカルにLaTeXを入れている場合は不要）
+1. `brew install latexindent`
+2. フォーマットしたいドキュメントで⇧ + ⌥ + F
+
+## 5. プロジェクトごとの設定
 1. VSCodeでディレクトリを開く
 2.  コマンドパレットを開く
 3. `Cloud LaTeX: Setting`を選択
@@ -47,14 +52,13 @@
         "cloudlatex.enabled": true,
 
         "latex-workshop.latex.autoBuild.run": "never",
-        "latex-workshop.latex.outDir": "out",
-        "[latex]":{
-            "editor.formatOnSave": false
-        }
+        "latex-workshop.latex.outDir": "out"
     }
    ```
+   - `autoBuild.run`: ローカルのLaTeXがビルドすることを回避．（Cloud Latexでビルドされるため）
+   - (auto save after delay の場合は format on save が効かない)
 
-## 5. キーマッピング
+## 6. キーマッピング
 - latexではバックスラッシュを多用する．
 - macではバックスラッシュが打ちにくい
 - Karabiner-Elementsを利用してキーマッピングをする
