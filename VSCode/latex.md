@@ -15,7 +15,7 @@
    ```SHELL
    $ code --install-extension cloudlatex.cloudlatex
    ```
-2. CloudLatexにログイン
+2. CloudLaTeXにログイン
 3. マイページの右上のドロップダウンメニューからプラグイン連携を選択
 4. パスワードを入力してトークンを生成
 5. VSCodeでコマンドパレットを開く（Ctrl + Shift + P ( ⌘ + ⇧ + P ) ）
@@ -62,4 +62,4 @@
 - latexではバックスラッシュを多用する．
 - macではバックスラッシュが打ちにくい
 - Karabiner-Elementsを利用してキーマッピングをする
-- 詳細は`/Karabiner-Elements/backslask.md`
+- 詳細は`/Karabiner-Elements/backslash.md`
